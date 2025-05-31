@@ -3,6 +3,13 @@
 ## 📌 Project Title
 Sales Performance Dashboard for Global Superstore
 
+<p align="center">
+  <img src="Coffee_Plants.jpg" width="600"><br>
+  <sub>
+    Photo by <a href="https://unsplash.com/@jack19992011?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jack Lee</a> on <a href="https://unsplash.com/photos/a-grocery-store-aisle-filled-with-lots-of-food-IH65r4HEQWQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  </sub>
+</p>
+
 ## 🧑‍💼 User Story
 As a Regional Sales Manager, I want an interactive dashboard that provides insights into sales performance, profitability, and shipping efficiency by region, product category, and time. This will help me identify underperforming areas and make informed business decisions to improve profitability.
 
