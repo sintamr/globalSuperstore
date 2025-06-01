@@ -1,7 +1,7 @@
 # Data Visualization with Tableau - Superstore Dashboard
 
 <p align="center">
-  <img src="Supermarket_Images.jpg" width="600"><br>
+  <img src="Images/Supermarket_Images.jpg" width="600"><br>
   <sub>
     Photo by <a href="https://unsplash.com/@jack19992011?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jack Lee</a> on <a href="https://unsplash.com/photos/a-grocery-store-aisle-filled-with-lots-of-food-IH65r4HEQWQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   </sub>
