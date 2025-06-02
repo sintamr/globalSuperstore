@@ -75,9 +75,12 @@ The West region recorded the highest overall profit, driven by strong performanc
 **Profit by Subcategory - Central Region**
 <p align="center">
   <img src="Images/Profit by Subcategory - Central Region.PNG" width="869"><br>
-  <img src="Images/Profit by Subcategory - Central Region.PNG" width="869"><br>
+  <img src="Images/Sales by Category for Central region.PNG" width="869"><br>
 </p>
 As a continuation of the finding that the Furniture category experienced losses in the Central and South regions, this chart highlights that sub-categories in the Central region—such as Tables (-2,163), Furnishings (-1,320), and Bookcases (-511) this contributed most significantly to the losses within the category. The largest loss came from the Tables sub-category, which may indicate underlying issues related to the product itself or the sales strategy for that line. Additionally, in the Office Supplies category, although it remains profitable overall, there is a notable loss in the Binders sub-category (-3,957), which exceeds the total losses across all Furniture sub-categories. This suggests that despite a healthy appearance at the category level, there may be hidden losses in certain sub-categories that could be weighing down overall profitability. Meanwhile, the Technology category is performing strongly, with Phones (4,120) and Accessories (2,941) emerging as the top profit contributors. This indicates an opportunity to shift sales or promotional focus toward technology products, particularly in regions struggling with losses in Furniture.
+In otherside, total sales in the Central region for the Furniture category are actually high. In particular, the Chairs sub-category recorded the highest sales among all sub-categories, reaching 23,218. This highlights show that high sales volume not comparable with profitability. Maybe that aggressive discounting strategies or elevated operational costs are causing profit margins to shrink significantly or even turn negative despite strong market demand.
+
+This highlight us that importance of evaluating performance not just from the sales perspective, but also through of cost efficiency and pricing strategy. If a top-selling sub-category like Chairs still fails to deliver positive profit, it signals a need for comprehensive review of pricing structures, promotional tactics, and target segmentation to ensure long-term profitability.
 
 **Based on these insights, the following actions are recommended:**
 1. Conduct a thorough review of pricing, offers, and inventory strategies for the Tables, Chairs, and Binders sub-categories.
