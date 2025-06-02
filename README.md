@@ -58,7 +58,31 @@ As a Regional Sales Manager, I want an interactive dashboard that provides insig
 2. Interactive Dashboard (Published to Tableau Public or Tableau Server)
 3. Insight Report (Key findings from analysis)
 
-## Visualization
+## Data Visualization Process Using Tableau
+This project outlines a clear and structured approach to data visualization using the Superstore dataset. The steps below describe the end-to-end process carried out:
+1. Dataset Acquisition
+   The dataset was obtained from Kaggle under the name "Superstore Dataset". It contains sales transaction data including order details, customer segments, product categories, regions, and more.
+2. Data Understanding
+   Before moving into analysis, I thoroughly explored the dataset to understand the available features, the types of data, and the potential for extracting insights aligned with business objectives.
+3. Data Quality Checking in Google Colab (using Python Language)
+   I used Google Colab to perform initial exploratory checks on the dataset. This included:
+   - Checking for missing values
+   - Identifying duplicate records
+   - Verifying data types and unique value distributions
+4. No Data Cleaning Required
+   After inspection, I found that the dataset was clean—there were no missing values, duplicates, or major inconsistencies. Thus, no additional data cleaning steps were necessary.
+5. Understanding Client Requirements
+   I reviewed the business requirements to ensure the visualizations aligned with the client’s goals. This included identifying key metrics such as profit, discount, sales trends, and customer segmentation.
+6. Data Visualization with Tableau
+   I imported the dataset into Tableau and created a range of dashboards and charts to uncover insights, including:
+   - Sales and profit trends over time
+   - Profitability by region and category
+   - Impact of discount rates
+   - Segment distribution and customer behavior
+  7. Data Analysis and Insight Extraction
+     Based on the visualizations, I performed in-depth analysis to derive actionable insights. These insights help identify areas of improvement, highlight loss-driving factors, and suggest strategic adjustments (e.g., reducing aggressive discounting in certain sub-categories or shifting focus to high-profit segments).
+     
+## Visualization and Analysis
 
 **Trend Sales 2014**
 <p align="center">
@@ -111,6 +135,17 @@ The Discount by Region and Category chart shows that in the Central region, both
 </p>
 The Proportion Segment chart reveals that the Home Office segment accounts for the largest portion of customers in the Central region, representing 48.72%, followed by Consumer (39.48%) and Corporate (11.80%). The dominance of the Home Office segment has important implications for business strategy. This segment typically consists of individuals or small business owners who are more price-sensitive and exhibit purchasing behaviors that differ from corporate clients. Therefore, promotional and discount strategies should be tailored to better align with the preferences and needs of Home Office customers. For example, while aggressive discounts may boost sales volume, they can also negatively impact profitability—as seen in categories like Furniture and Office Supplies—if not supported by healthy profit margins. A more sustainable approach would be to target promotions toward high-margin products or sub-categories with proven profitability, while continuously evaluating discount effectiveness within this segment.
 Additionally, communication strategies can be personalized for the Home Office audience by highlighting product benefits such as functionality, space efficiency, or flexibility—features that typically resonate more with this group.
+
+## Dashboard Visualization with Tableau
+**Dashboard Superstore - 2014**
+<p align="center">
+  <img src="Images/Dashboard 2014.png" width="869"><br>
+</p>
+
+**Dashboard Superstore Specific in Central Region**
+<p align="center">
+  <img src="Images/Dashboard Central Region.png" width="869"><br>
+</p>
 
 ## 🛠️ Built With
 
