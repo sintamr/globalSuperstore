@@ -83,7 +83,7 @@ As a Regional Sales Manager, I want an interactive dashboard that provides insig
      - Impact of discount rates
      - Segment distribution and customer behavior
   7. Data Analysis and Insight Extraction
-     Based on the visualizations, I performed in-depth analysis to derive actionable insights. These insights help identify areas of improvement, highlight loss-driving factors, and suggest strategic adjustments (e.g., reducing aggressive discounting in certain sub-categories or shifting focus to high-profit segments).
+      Based on the visualizations, I performed in-depth analysis to derive actionable insights. These insights help identify areas of improvement, highlight loss-driving factors, and suggest strategic adjustments (e.g., reducing aggressive discounting in certain sub-categories or shifting focus to high-profit segments).
 </p>
      
 ## Visualization and Analysis
