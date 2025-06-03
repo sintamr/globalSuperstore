@@ -17,13 +17,12 @@ As a Regional Sales Manager, I want an interactive dashboard that provides insig
 1. Provide an overview of sales and profit performance.
 2. Analyze sales and profit trends over time (monthly/quarterly).
 3. Present geographical performance by region and state.
-4. Visualize shipping performance and delivery times.
-5. Enable interactive exploration for stakeholders and decision-makers.
+4. Enable interactive exploration for stakeholders and decision-makers.
 
 ## 📦 Dataset Overview
 **Dataset Name**: Global Superstore
 
-**Source**: Sample dataset provided by Tableau
+**Source**: Sample dataset provided by Kaggle
 
 **Key Fields**:
 - Order ID, Order Date, Ship Date
@@ -47,9 +46,9 @@ As a Regional Sales Manager, I want an interactive dashboard that provides insig
    - Follow consistent design and color themes.
   
 ## 🧠 Key Business Questions to Answer
-1. Which regions generate the most profit?
-2. Are there any sub-categories operating at a loss?
-3. What are the year-over-year sales trends?
+1. What are the year-over-year sales trends?
+2. Which regions generate the most profit?
+3. Are there any sub-categories operating at a loss?
 4. How does discounting impact profitability?
 5. Are there significant differences in performance between customer segments?
 
@@ -59,9 +58,7 @@ As a Regional Sales Manager, I want an interactive dashboard that provides insig
 3. Insight Report (Key findings from analysis)
 
 ## Data Visualization Process Using Tableau
-
-<p align="justify">
-  This project outlines a clear and structured approach to data visualization using the Superstore dataset. The steps below describe the end-to-end process carried out:
+  This project outlines a clear and structured approach to data visualization using the Superstore dataset. The steps below describe the end-to-end process carried out:  
   
   1. Dataset Acquisition
    The dataset was obtained from Kaggle under the name "Superstore Dataset". It contains sales transaction data including order details, customer segments, product categories, regions, and more.
@@ -84,7 +81,6 @@ As a Regional Sales Manager, I want an interactive dashboard that provides insig
      - Segment distribution and customer behavior
   7. Data Analysis and Insight Extraction
       Based on the visualizations, I performed in-depth analysis to derive actionable insights. These insights help identify areas of improvement, highlight loss-driving factors, and suggest strategic adjustments (e.g., reducing aggressive discounting in certain sub-categories or shifting focus to high-profit segments).
-</p>
      
 ## Visualization and Analysis
 
@@ -166,20 +162,11 @@ Additionally, communication strategies can be personalized for the Home Office a
 
 - **Tableau**
 - **[Pandas](https://pandas.pydata.org/)** – For data processing.
-- **[Matplotlib](https://matplotlib.org/)** and **[Seaborn](https://seaborn.pydata.org/)** – For data visualization.
-- **OpenPyXL** – For reading Excel files (`.xlsx`).
 
 ## 📑 Data
  This data was taken from Kaggle
  
-## 📦 Requirements
-
-Install the required Python libraries using:
-
-```bash
-pip install -r requirements.txt
-```
-
+ [Link Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 
 ## 👩‍💻 Author
 
