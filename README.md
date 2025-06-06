@@ -147,6 +147,11 @@ Additionally, communication strategies can be personalized for the Home Office a
    </div>
 </p>
 
+## Conclusion
+
+<p align="Justify"> The Superstore dashboard analysis reveals that despite increasing sales, the Central region recorded the highest losses, followed by the South both primarily in the Furniture category. In Central, the largest losses came from the Tables, Bookcases, and Furnishings sub-categories (Furniture), along with Binders (Office Supplies). Further analysis shows that discounts of 30% or more on Tables significantly reduce profitability, while discounts below 30% are more ideal. With 48.78% of customers in the Home Office segment, promotional strategies should focus on high-profit products relevant to this segment, while avoiding excessive discounts on underperforming items.
+</p>
+
 ## Dashboard Visualization with Tableau
 **Dashboard Superstore - 2014**
 <p align="center">
