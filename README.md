@@ -1,4 +1,4 @@
-# Data Visualization with Tableau - Superstore Dashboard
+# Superstore Sales Dashboard with Tableau
 
 <p align="center">
   <img src="Images/Supermarket_Images.jpg" width="600"><br>
@@ -57,22 +57,22 @@ As a Regional Sales Manager, I want an interactive dashboard that provides insig
 2. Interactive Dashboard (Published to Tableau Public or Tableau Server)
 3. Insight Report (Key findings from analysis)
 
-## Data Visualization Process Using Tableau
+## 🔄 Data Visualization Process Using Tableau
   This project outlines a clear and structured approach to data visualization using the Superstore dataset. The steps below describe the end-to-end process carried out:  
   
-  1. Dataset Acquisition
+  1. **Dataset Acquisition**
    The dataset was obtained from Kaggle under the name "Superstore Dataset". It contains sales transaction data including order details, customer segments, product categories, regions, and more.
-  2. Data Understanding
+  2. **Data Understanding**
    Before moving into analysis, I thoroughly explored the dataset to understand the available features, the types of data, and the potential for extracting insights aligned with business objectives.
-  3. Data Quality Checking in Google Colab (using Python Language)
+  3. **Data Quality Checking in Google Colab (using Python Language)**
    I used Google Colab to perform initial exploratory checks on the dataset. This included:
      - Checking for missing values
      - Identifying duplicate records
      - Verifying data types and unique value distributions
-  4. No Data Cleaning Required
-   After inspection, I found that the dataset was clean—there were no missing values, duplicates, or major inconsistencies. Thus, no additional data cleaning steps were necessary.
-  5. Understanding Client Requirements
-   I reviewed the business requirements to ensure the visualizations aligned with the client’s goals. This included identifying key metrics such as profit, discount, sales trends, and customer segmentation.
+  4. **Data Cleaning**
+   After inspection, I found that the dataset was clean there were no missing values, duplicates, or major inconsistencies. Thus, no additional data cleaning steps were necessary.
+  5. **Requirement Analysis**
+   In this stage, I analyzed the business goals and user expectations to identify the key requirements for the dashboard. Based on the user story and project objectives, business metrics and analytical need were prioritized.
   6. Data Visualization with Tableau
    I imported the dataset into Tableau and created a range of dashboards and charts to uncover insights, including:
      - Sales and profit trends over time
@@ -107,8 +107,8 @@ As a Regional Sales Manager, I want an interactive dashboard that provides insig
   <img src="Images/Sales by Category for Central region.PNG" width="869"><br>
   <div align="justify">
     As a continuation of the finding that the Furniture category experienced losses in the Central and South regions, this chart highlights that sub-categories in the Central region—such as Tables (-2,163), Furnishings (-1,320), and Bookcases (-511) this contributed most significantly to the losses within the category. The largest loss came from the Tables sub-category, which may indicate underlying issues related to the product itself or the sales strategy for that line. Additionally, in the Office Supplies category, although it remains profitable overall, there is a notable loss in the Binders sub-category (-3,957), which exceeds the total losses across all Furniture sub-categories. This suggests that despite a healthy appearance at the category level, there may be hidden losses in certain sub-categories that could be weighing down overall profitability. Meanwhile, the Technology category is performing strongly, with Phones (4,120) and Accessories (2,941) emerging as the top profit contributors. This indicates an opportunity to shift sales or promotional focus toward technology products, particularly in regions struggling with losses in Furniture.
-In otherside, total sales in the Central region for the Furniture category are actually high. In particular, the Chairs sub-category recorded the highest sales among all sub-categories, reaching 23,218. This highlights show that high sales volume not comparable with profitability. Maybe that aggressive discounting strategies or elevated operational costs are causing profit margins to shrink significantly or even turn negative despite strong market demand.
-This highlight us that importance of evaluating performance not just from the sales perspective, but also through of cost efficiency and pricing strategy. If a top-selling sub-category like Chairs still fails to deliver positive profit, it signals a need for comprehensive review of pricing structures, promotional tactics, and target segmentation to ensure long-term profitability.
+In otherside, total sales in the Central region for the Furniture category are actually high. In particular, the Chairs sub-category recorded the highest sales among all sub-categories, reaching 23,218. This highlights that high sales volume does not necessarily correlate with profitability. Maybe that aggressive discounting strategies or elevated operational costs are causing profit margins to shrink significantly or even turn negative despite strong market demand.
+This highlights the importance of evaluating performance not only from a sales perspective but also through cost efficiency and pricing strategy. If a top-selling sub-category like Chairs still fails to deliver positive profit, it signals a need for comprehensive review of pricing structures, promotional tactics, and target segmentation to ensure long-term profitability.
 
 **Based on these insights, the following actions are recommended:**
 1. Conduct a thorough review of pricing, offers, and inventory strategies for the Tables, Chairs, and Binders sub-categories.
@@ -149,8 +149,16 @@ Additionally, communication strategies can be personalized for the Home Office a
 
 ## Conclusion
 
-<p align="Justify"> The Superstore dashboard analysis reveals that despite increasing sales, the Central region recorded the highest losses, followed by the South both primarily in the Furniture category. In Central, the largest losses came from the Tables, Bookcases, and Furnishings sub-categories (Furniture), along with Binders (Office Supplies). Further analysis shows that discounts of 30% or more on Tables significantly reduce profitability, while discounts below 30% are more ideal. With 48.78% of customers in the Home Office segment, promotional strategies should focus on high-profit products relevant to this segment, while avoiding excessive discounts on underperforming items.
-</p>
+1. The highest losses were recorded in the Central and South regions, primarily in the Furniture category.
+2. The Tables sub-category experienced significant losses, especially when high discounts (≥30%) were applied.
+3. High discount rates do not always yield positive results and can drastically reduce profitability.
+4. Most customers in the Central region belong to the Home Office segment (48.72%), which tends to be price-sensitive but contributes significantly to high sales volume.
+
+## Recommendation
+
+1. Do discount evaluation by avoiding large discounts on loss-making sub-categories, like Tables or Binder. Apply limited discounts to price-sensitive segments such as Home Office.
+2. Focus on high profit products by prioritizing promotions and stock allocation for high-profit sub-categories like phones and accessories, especially in the Central region.
+3. For the Home Office segment, highlight product benefits (functionality, space efficiency, flexibility) using an educational approach rather than relying solely on discounts.
 
 ## Dashboard Visualization with Tableau
 **Dashboard Superstore - 2014**
