@@ -18,8 +18,14 @@ data.info()
 
 data.describe(include="all")
 
+# Memeriksa jumlah nilai yang hilang
 missing_values = data.isnull().sum()
 missing_values[missing_values > 0]
 
-"""Data is clean"""
+# Mengidentifikasi baris duplikat
+duplicates = df.duplicated()
+
+print(df[duplicates])
+
+# The dataset is clean: There are no missing values and duplicates in any of the columns.
 
